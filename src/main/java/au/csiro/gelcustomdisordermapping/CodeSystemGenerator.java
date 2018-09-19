@@ -15,6 +15,7 @@ import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
 import org.hl7.fhir.dstu3.model.CodeSystem.ConceptDefinitionComponent;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 /**
  * Generates a code system from a CSV file with the following format: TODO.
@@ -38,11 +39,14 @@ public class CodeSystemGenerator {
       cs.setName("GEL Recruited Disorders List");
       cs.setUrl("http://genomicsengland.co.uk/recruited-disorders");
       cs.setHierarchyMeaning(CodeSystemHierarchyMeaning.GROUPEDBY);
+      boolean foundHeader = false;
       
       while (sc.hasNextLine()) {
-        // Build the internal structure
-        Map<String, Map<String, Map<String, Set<String>>>> categoryMap = new HashMap<>();
-        
+
+        if (!foundHeader) {
+          foundHeader = true;
+          continue;
+        }
         // Read the structure into a FHIR code system
         String line = sc.nextLine(); 
         String[] parts = line.split("[,]");
@@ -53,41 +57,58 @@ public class CodeSystemGenerator {
         String level4Code = parts[4];
         String level4Display = parts[5];
         
-        ConceptDefinitionComponent level2 = getConcept(null, level2Code, level2Display);
+        ConceptDefinitionComponent level2 = createConcept(cs, level2Code, level2Display);
         if (!containsCode(cs, level2)) {
-          cs.getConcept().add(level2);
+          cs.addConcept(level2);
         }
-
-        ConceptDefinitionComponent level3 = getConcept(level2, level3Code, level3Display);
-        getConcept(level3, level4Code, level4Display);
+        ConceptDefinitionComponent level3 = createConcept(level2, level3Code, level3Display);
+        if (!containsCode(level2, level3)) {
+          level2.addConcept(level3);
+        }
+        ConceptDefinitionComponent level4 = createConcept(level3, level4Code, level4Display);
+        if (!containsCode(level3, level4)) {
+          level3.addConcept(level4);
+        }
       }
-
       return cs;
     }
   }
 
   private boolean containsCode(CodeSystem cs, ConceptDefinitionComponent concept) {
-    for (ConceptDefinitionComponent cdc : cs.getConcept()) {
-      if (cdc.getCode().equals(concept.getCode())) {
-        return true;
-      }
-    }
-    return false;
+    return containsCode(cs.getConcept(), concept);
   }
-  
-  private ConceptDefinitionComponent getConcept(
-          ConceptDefinitionComponent parent, String code, String display) {
 
-    if (parent == null) {
-      return new ConceptDefinitionComponent().setCode(code).setDisplay(display);
-    }
-    List<ConceptDefinitionComponent> children = parent.getConcept();
-    for (ConceptDefinitionComponent c : children) {
-      if (c.getCode().equals(code)) {
-        return c;
-      }
-    }
-    return parent.addConcept().setCode(code).setDisplay(display);
+  private boolean containsCode(ConceptDefinitionComponent parent, ConceptDefinitionComponent concept) {
+    return containsCode(parent.getConcept(), concept);
   }
-  
+
+  private boolean containsCode(List<ConceptDefinitionComponent> children, ConceptDefinitionComponent concept) {
+    return children.stream().filter(c -> c.getCode().equals(concept.getCode())).collect(Collectors.toList()).size() > 0;
+  }
+
+  private ConceptDefinitionComponent createConcept(CodeSystem cs, String code, String display) {
+    List<ConceptDefinitionComponent> concepts = cs.getConcept().stream().filter(c -> c.getCode().equals(code)).collect(Collectors.toList());
+    ConceptDefinitionComponent concept = null;
+    if (CollectionUtils.isEmpty(concepts)) {
+      concept = new ConceptDefinitionComponent().setCode(code).setDisplay(display);
+      cs.addConcept(concept);
+    }
+    else {
+      concept = concepts.get(0);
+    }
+    return concept;
+  }
+
+  private ConceptDefinitionComponent createConcept(ConceptDefinitionComponent cdc, String code, String display) {
+    List<ConceptDefinitionComponent> concepts = cdc.getConcept().stream().filter(c -> c.getCode().equals(code)).collect(Collectors.toList());
+    ConceptDefinitionComponent concept = null;
+    if (CollectionUtils.isEmpty(concepts)) {
+      concept = new ConceptDefinitionComponent().setCode(code).setDisplay(display);
+      cdc.addConcept(concept);
+    }
+    else {
+      concept = concepts.get(0);
+    }
+    return concept;
+  }
 }
