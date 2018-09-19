@@ -1,11 +1,13 @@
 package au.csiro.gelcustomdisordermapping;
 
+import ca.uhn.fhir.context.FhirContext;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 import java.util.Scanner;
+import java.util.Set;
 
 import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
@@ -27,7 +29,7 @@ public class CodeSystemGenerator {
    * @param csv The CSV file.
    * @throws FileNotFoundException Thrown if the file is not found.
    */
-  public void generateFromCsv(File csv) throws FileNotFoundException {
+  public CodeSystem generateFromCsv(File csv) throws FileNotFoundException {
     try (Scanner sc = new Scanner(csv)) {
       
       final CodeSystem cs = new CodeSystem();
@@ -49,11 +51,28 @@ public class CodeSystemGenerator {
         String level4Code = parts[4];
         String level4Display = parts[5];
         
+        ConceptDefinitionComponent level2 = getConcept(null, level2Code, level2Display);
+        if (!containsCode(cs, level2)) {
+          cs.getConcept().add(level2);
+        }
         
-        
+        ConceptDefinitionComponent level3 = getConcept(level2, level3Code, level3Display);
+        getConcept(level3, level4Code, level4Display);
       }
+      
+      return cs;
     }
   }
+  
+  private boolean containsCode(CodeSystem cs, ConceptDefinitionComponent concept) {
+    for (ConceptDefinitionComponent cdc : cs.getConcept()) {
+      if (cdc.getCode().equals(concept.getCode())) {
+        return true;
+      }
+    }
+    return false;
+  }
+  
   
   private ConceptDefinitionComponent getConcept(String code) {
     
