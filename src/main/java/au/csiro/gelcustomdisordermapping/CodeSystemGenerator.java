@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
@@ -55,15 +57,15 @@ public class CodeSystemGenerator {
         if (!containsCode(cs, level2)) {
           cs.getConcept().add(level2);
         }
-        
+
         ConceptDefinitionComponent level3 = getConcept(level2, level3Code, level3Display);
         getConcept(level3, level4Code, level4Display);
       }
-      
+
       return cs;
     }
   }
-  
+
   private boolean containsCode(CodeSystem cs, ConceptDefinitionComponent concept) {
     for (ConceptDefinitionComponent cdc : cs.getConcept()) {
       if (cdc.getCode().equals(concept.getCode())) {
@@ -73,9 +75,19 @@ public class CodeSystemGenerator {
     return false;
   }
   
-  
-  private ConceptDefinitionComponent getConcept(String code) {
-    
+  private ConceptDefinitionComponent getConcept(
+          ConceptDefinitionComponent parent, String code, String display) {
+
+    if (parent == null) {
+      return new ConceptDefinitionComponent().setCode(code).setDisplay(display);
+    }
+    List<ConceptDefinitionComponent> children = parent.getConcept();
+    for (ConceptDefinitionComponent c : children) {
+      if (c.getCode().equals(code)) {
+        return c;
+      }
+    }
+    return parent.addConcept().setCode(code).setDisplay(display);
   }
   
 }
