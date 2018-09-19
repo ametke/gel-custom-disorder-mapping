@@ -12,8 +12,12 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 import org.hl7.fhir.dstu3.model.CodeSystem;
+import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemContentMode;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
 import org.hl7.fhir.dstu3.model.CodeSystem.ConceptDefinitionComponent;
+import org.hl7.fhir.dstu3.model.ConceptMap;
+import org.hl7.fhir.dstu3.model.ConceptMap.ConceptMapGroupComponent;
+import org.hl7.fhir.dstu3.model.Enumerations.PublicationStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
@@ -26,6 +30,9 @@ import org.springframework.util.CollectionUtils;
 @Service
 public class CodeSystemGenerator {
   
+  public final String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
+  public final String HPO_URL = "http://purl.obolibrary.org/obo/hp.owl";
+  
   /**
    * Reads a CSV file and generates a FHIR code system.
    * 
@@ -37,8 +44,10 @@ public class CodeSystemGenerator {
       
       final CodeSystem cs = new CodeSystem();
       cs.setName("GEL Recruited Disorders List");
-      cs.setUrl("http://genomicsengland.co.uk/recruited-disorders");
+      cs.setUrl(RECRUITED_DISORDERS_URL);
       cs.setHierarchyMeaning(CodeSystemHierarchyMeaning.GROUPEDBY);
+      cs.setStatus(PublicationStatus.DRAFT);
+      cs.setContent(CodeSystemContentMode.COMPLETE);
       boolean foundHeader = false;
       
       while (sc.hasNextLine()) {
@@ -71,6 +80,39 @@ public class CodeSystemGenerator {
         }
       }
       return cs;
+    }
+  }
+  
+  public ConceptMap generateConceptMap(File csv) throws FileNotFoundException {
+    try (Scanner sc = new Scanner(csv)) {
+      final ConceptMap cm = new ConceptMap();
+      cm.setName("");
+      cm.setUrl("");
+      cm.setStatus(PublicationStatus.DRAFT);
+      boolean foundHeader = false;
+      
+      ConceptMapGroupComponent group = cm.addGroup();
+      group.setSource(RECRUITED_DISORDERS_URL);
+      
+      
+      while (sc.hasNextLine()) {
+
+        if (!foundHeader) {
+          foundHeader = true;
+          continue;
+        }
+
+        // Read the structure into a FHIR code system
+        String line = sc.nextLine(); 
+        String[] parts = line.split("[,]");
+
+        String level4Code = parts[4];
+        String hpoCode = parts[8];
+        
+        
+      }
+      
+      return cm;
     }
   }
 
