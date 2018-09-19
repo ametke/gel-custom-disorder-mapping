@@ -54,6 +54,7 @@ public class CodeSystemGenerator {
 
         if (!foundHeader) {
           foundHeader = true;
+          sc.nextLine();
           continue;
         }
         // Read the structure into a FHIR code system
