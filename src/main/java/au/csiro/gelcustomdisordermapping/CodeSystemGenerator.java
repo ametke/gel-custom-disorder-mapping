@@ -48,6 +48,7 @@ public class CodeSystemGenerator {
       cs.setHierarchyMeaning(CodeSystemHierarchyMeaning.GROUPEDBY);
       cs.setStatus(PublicationStatus.DRAFT);
       cs.setContent(CodeSystemContentMode.COMPLETE);
+      cs.setValueSet(RECRUITED_DISORDERS_URL);
       boolean foundHeader = false;
       
       while (sc.hasNextLine()) {

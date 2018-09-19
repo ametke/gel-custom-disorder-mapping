@@ -47,6 +47,7 @@ public class PanelAppGenerator {
       cs.setHierarchyMeaning(CodeSystemHierarchyMeaning.GROUPEDBY);
       cs.setStatus(PublicationStatus.DRAFT);
       cs.setContent(CodeSystemContentMode.COMPLETE);
+      cs.setValueSet(PANELAPP_URL);
       CodeSystem.PropertyComponent propertyComponent = cs.addProperty();
       propertyComponent.setType(CodeSystem.PropertyType.STRING);
       propertyComponent.setCode(VERSION);
@@ -85,38 +86,38 @@ public class PanelAppGenerator {
     }
   }
   
-//  public ConceptMap generateConceptMap(File csv) throws FileNotFoundException {
-//    try (Scanner sc = new Scanner(csv)) {
-//      final ConceptMap cm = new ConceptMap();
-//      cm.setName("");
-//      cm.setUrl("");
-//      cm.setStatus(PublicationStatus.DRAFT);
-//      boolean foundHeader = false;
-//
-//      ConceptMapGroupComponent group = cm.addGroup();
-//      group.setSource(PANELAPP_URL);
-//
-//
-//      while (sc.hasNextLine()) {
-//
-//        if (!foundHeader) {
-//          foundHeader = true;
-//          continue;
-//        }
-//
-//        // Read the structure into a FHIR code system
-//        String line = sc.nextLine();
-//        String[] parts = line.split("[,]");
-//
-//        String level4Code = parts[4];
-//        String hpoCode = parts[8];
-//
-//
-//      }
-//
-//      return cm;
-//    }
-//  }
+  public ConceptMap generateConceptMap(File csv) throws FileNotFoundException {
+    try (Scanner sc = new Scanner(csv)) {
+      final ConceptMap cm = new ConceptMap();
+      cm.setName("");
+      cm.setUrl("");
+      cm.setStatus(PublicationStatus.DRAFT);
+      boolean foundHeader = false;
+
+      ConceptMapGroupComponent group = cm.addGroup();
+      group.setSource(PANELAPP_URL);
+
+
+      while (sc.hasNextLine()) {
+
+        if (!foundHeader) {
+          foundHeader = true;
+          continue;
+        }
+
+        // Read the structure into a FHIR code system
+        String line = sc.nextLine();
+        String[] parts = line.split("[,]");
+
+        String level4Code = parts[4];
+        String hpoCode = parts[8];
+
+
+      }
+
+      return cm;
+    }
+  }
 
   private boolean containsCode(CodeSystem cs, ConceptDefinitionComponent concept) {
     return containsCode(cs.getConcept(), concept);
