@@ -1,5 +1,6 @@
 {
   "resourceType": "CodeSystem",
+  "id": "panelapp",
   "url": "http://genomicsengland.co.uk/panels",
   "name": "GEL PanelApp panel List",
   "status": "draft",

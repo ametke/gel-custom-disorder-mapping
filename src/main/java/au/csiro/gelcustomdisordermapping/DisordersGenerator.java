@@ -29,7 +29,7 @@ import org.springframework.util.CollectionUtils;
  *
  */
 @Service
-public class CodeSystemGenerator {
+public class DisordersGenerator {
   
   public final static String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
   public final static String RECRUITED_DISORDERS_TO_HPO_URL = "http://genomicsengland.co.uk/recruited-disorders-to-hpo";
@@ -51,6 +51,7 @@ public class CodeSystemGenerator {
       cs.setStatus(PublicationStatus.DRAFT);
       cs.setContent(CodeSystemContentMode.COMPLETE);
       cs.setValueSet(RECRUITED_DISORDERS_URL);
+      cs.setId("disorders");
       boolean foundHeader = false;
       
       while (sc.hasNextLine()) {

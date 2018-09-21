@@ -26,13 +26,13 @@ public class ConceptMapGenerator {
     try (Scanner sc = new Scanner(csv)) {
       final ConceptMap cm = new ConceptMap();
       cm.setName("Recruited disorders to HPO terms map.");
-      cm.setUrl(CodeSystemGenerator.RECRUITED_DISORDERS_TO_HPO_URL);
+      cm.setUrl(DisordersGenerator.RECRUITED_DISORDERS_TO_HPO_URL);
       cm.setStatus(PublicationStatus.DRAFT);
       boolean foundHeader = false;
       
       ConceptMapGroupComponent group = cm.addGroup();
-      group.setSource(CodeSystemGenerator.RECRUITED_DISORDERS_URL);
-      group.setTarget(CodeSystemGenerator.HPO_URL);
+      group.setSource(DisordersGenerator.RECRUITED_DISORDERS_URL);
+      group.setTarget(DisordersGenerator.HPO_URL);
       
       final Map<String, Set<String>> map = new HashMap<>();
       

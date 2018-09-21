@@ -49,6 +49,7 @@ public class PanelAppGenerator {
       cs.setStatus(PublicationStatus.DRAFT);
       cs.setContent(CodeSystemContentMode.COMPLETE);
       cs.setValueSet(PANELAPP_URL);
+      cs.setId("panelapp");
       CodeSystem.PropertyComponent versionPropertyComponent = cs.addProperty();
       versionPropertyComponent.setType(CodeSystem.PropertyType.STRING);
       versionPropertyComponent.setCode(VERSION);

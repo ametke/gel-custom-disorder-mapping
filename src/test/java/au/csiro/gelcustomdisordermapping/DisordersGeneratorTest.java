@@ -14,11 +14,11 @@ import org.junit.Test;
  * @author Alejandro Metke
  *
  */
-public class CodeSystemGeneratorTest {
+public class DisordersGeneratorTest {
   
   @Test
   public void testGenerateFromCsv() throws FileNotFoundException {
-    CodeSystemGenerator csg = new CodeSystemGenerator();
+    DisordersGenerator csg = new DisordersGenerator();
     CodeSystem cs = csg.generateFromCsv(new File("src/test/rare_diseases.csv"));
     String json = FhirContext
         .forDstu3()
