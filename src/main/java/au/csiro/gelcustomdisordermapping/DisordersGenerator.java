@@ -1,23 +1,15 @@
 package au.csiro.gelcustomdisordermapping;
 
-import ca.uhn.fhir.context.FhirContext;
-
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.*;
 import java.util.stream.Collectors;
 
 import org.hl7.fhir.dstu3.model.CodeSystem;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemContentMode;
 import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
 import org.hl7.fhir.dstu3.model.CodeSystem.ConceptDefinitionComponent;
-import org.hl7.fhir.dstu3.model.ConceptMap;
-import org.hl7.fhir.dstu3.model.ConceptMap.ConceptMapGroupComponent;
-import org.hl7.fhir.dstu3.model.ConceptMap.SourceElementComponent;
 import org.hl7.fhir.dstu3.model.Enumerations.PublicationStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -31,9 +23,13 @@ import org.springframework.util.CollectionUtils;
 @Service
 public class DisordersGenerator {
   
-  public final static String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
-  public final static String RECRUITED_DISORDERS_TO_HPO_URL = "http://genomicsengland.co.uk/recruited-disorders-to-hpo";
-  public final static String HPO_URL = "http://purl.obolibrary.org/obo/hp.owl";
+  public static final String RECRUITED_DISORDERS_URL = 
+      "http://genomicsengland.co.uk/recruited-disorders";
+  public static final String RECRUITED_DISORDERS_TO_HPO_URL = 
+      "http://genomicsengland.co.uk/recruited-disorders-to-hpo";
+  public static final String RECRUITED_DISORDERS_TO_PANELS_URL = 
+      "http://genomicsengland.co.uk/recruited-disorders-to-panels";
+  public static final String HPO_URL = "http://purl.obolibrary.org/obo/hp.owl";
   
   /**
    * Reads a CSV file and generates a FHIR code system.
