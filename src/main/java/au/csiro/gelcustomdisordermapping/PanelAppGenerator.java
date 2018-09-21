@@ -30,8 +30,8 @@ public class PanelAppGenerator {
 
   public static final String VERSION = "version";
   public static final String ID = "id";
-  public final String PANELAPP_URL = "http://genomicsengland.co.uk/panels";
-  public final String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
+  public static final String PANELAPP_URL = "http://genomicsengland.co.uk/panels";
+  public static final String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
   
   /**
    * Reads a CSV file and generates a FHIR code system.
