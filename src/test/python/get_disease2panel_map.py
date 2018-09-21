@@ -5,15 +5,14 @@ import requests
 
 def _load_recruited_disorders():
     disorder_set = set([])
-    resources_directory = os.path.join(os.path.dirname(os.getcwd()))
-    fd = open(os.path.join(resources_directory, "rare_diseases.csv"))
+    resources_directory = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.getcwd()))))
+    fd = open(os.path.join(resources_directory, "src", "main", "resources", "rare_diseases.csv"))
     fd.readline()
     for line in fd:
         parts = line.split(",")
         disorder_set.add(parts[1])
         disorder_set.add(parts[3])
         disorder_set.add(parts[5])
-        disorder_set.add(parts[7])
     fd.close()
 
     return disorder_set
