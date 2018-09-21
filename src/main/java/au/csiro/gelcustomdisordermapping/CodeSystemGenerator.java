@@ -17,6 +17,7 @@ import org.hl7.fhir.dstu3.model.CodeSystem.CodeSystemHierarchyMeaning;
 import org.hl7.fhir.dstu3.model.CodeSystem.ConceptDefinitionComponent;
 import org.hl7.fhir.dstu3.model.ConceptMap;
 import org.hl7.fhir.dstu3.model.ConceptMap.ConceptMapGroupComponent;
+import org.hl7.fhir.dstu3.model.ConceptMap.SourceElementComponent;
 import org.hl7.fhir.dstu3.model.Enumerations.PublicationStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -30,8 +31,9 @@ import org.springframework.util.CollectionUtils;
 @Service
 public class CodeSystemGenerator {
   
-  public final String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
-  public final String HPO_URL = "http://purl.obolibrary.org/obo/hp.owl";
+  public final static String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
+  public final static String RECRUITED_DISORDERS_TO_HPO_URL = "http://genomicsengland.co.uk/recruited-disorders-to-hpo";
+  public final static String HPO_URL = "http://purl.obolibrary.org/obo/hp.owl";
   
   /**
    * Reads a CSV file and generates a FHIR code system.
@@ -85,38 +87,7 @@ public class CodeSystemGenerator {
     }
   }
   
-  public ConceptMap generateConceptMap(File csv) throws FileNotFoundException {
-    try (Scanner sc = new Scanner(csv)) {
-      final ConceptMap cm = new ConceptMap();
-      cm.setName("");
-      cm.setUrl("");
-      cm.setStatus(PublicationStatus.DRAFT);
-      boolean foundHeader = false;
-      
-      ConceptMapGroupComponent group = cm.addGroup();
-      group.setSource(RECRUITED_DISORDERS_URL);
-      
-      
-      while (sc.hasNextLine()) {
-
-        if (!foundHeader) {
-          foundHeader = true;
-          continue;
-        }
-
-        // Read the structure into a FHIR code system
-        String line = sc.nextLine(); 
-        String[] parts = line.split("[,]");
-
-        String level4Code = parts[4];
-        String hpoCode = parts[8];
-        
-        
-      }
-      
-      return cm;
-    }
-  }
+  
 
   private boolean containsCode(CodeSystem cs, ConceptDefinitionComponent concept) {
     return containsCode(cs.getConcept(), concept);
