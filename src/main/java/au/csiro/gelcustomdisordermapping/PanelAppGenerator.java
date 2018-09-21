@@ -29,6 +29,7 @@ import java.util.stream.Collectors;
 public class PanelAppGenerator {
 
   public static final String VERSION = "version";
+  public static final String ID = "id";
   public final String PANELAPP_URL = "http://genomicsengland.co.uk/panels";
   public final String RECRUITED_DISORDERS_URL = "http://genomicsengland.co.uk/recruited-disorders";
   
@@ -48,18 +49,15 @@ public class PanelAppGenerator {
       cs.setStatus(PublicationStatus.DRAFT);
       cs.setContent(CodeSystemContentMode.COMPLETE);
       cs.setValueSet(PANELAPP_URL);
-      CodeSystem.PropertyComponent propertyComponent = cs.addProperty();
-      propertyComponent.setType(CodeSystem.PropertyType.STRING);
-      propertyComponent.setCode(VERSION);
-      boolean foundHeader = false;
+      CodeSystem.PropertyComponent versionPropertyComponent = cs.addProperty();
+      versionPropertyComponent.setType(CodeSystem.PropertyType.STRING);
+      versionPropertyComponent.setCode(VERSION);
+      CodeSystem.PropertyComponent idPropertyComponent = cs.addProperty();
+      idPropertyComponent.setType(CodeSystem.PropertyType.STRING);
+      idPropertyComponent.setCode(ID);
       
       while (sc.hasNextLine()) {
 
-        if (!foundHeader) {
-          foundHeader = true;
-          sc.nextLine();
-          continue;
-        }
         // Read the structure into a FHIR code system
         String line = sc.nextLine(); 
         String[] parts = line.split("\t");
@@ -74,12 +72,19 @@ public class PanelAppGenerator {
           }
         }
 
-        ConceptDefinitionComponent panel = createConcept(cs, id, name);
+        // NOTE: unique code is concatenating id and version to support panel versioning
+        ConceptDefinitionComponent panel = createConcept(cs, String.format("%s-%s", id, version), name);
         CodeSystem.ConceptPropertyComponent propertyComponent1 = panel.addProperty();
         propertyComponent1.setCode(VERSION);
         propertyComponent1.setValue(new StringType(version));
+        CodeSystem.ConceptPropertyComponent propertyComponent2 = panel.addProperty();
+        propertyComponent2.setCode(ID);
+        propertyComponent2.setValue(new StringType(id));
         if (!containsCode(cs, panel)) {
           cs.addConcept(panel);
+        }
+        else {
+          System.out.println("Hey repeated panel id!");
         }
       }
       return cs;

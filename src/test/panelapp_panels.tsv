@@ -37,7 +37,7 @@
 244	1.0	Colorectal cancer pertinent cancer susceptibility	Colorectal
 145	1.5	Congenital adrenal hypoplasia
 25	1.19	Congenital disorders of glycosylation	Congential disorders of glycosylation
-126	1.41	Congenital hearing impairment (profound/severe)	Congenital hearing impairment;Autosomal dominant deafness
+126	1.43	Congenital hearing impairment (profound/severe)	Congenital hearing impairment;Autosomal dominant deafness
 31	1.2	Congenital hypothyroidism or thyroid agenesis	Congenital hypothyroidism
 207	1.15	Congenital muscular dystrophy
 232	1.9	Congenital myaesthenia	Congenital myasthenia
@@ -56,7 +56,7 @@
 235	1.6	Distal myopathies
 209	0.1	Ductal plate malformation (DPM)
 265	1.22	Early onset dementia (encompassing fronto-temporal dementia and prion disease)
-192	1.46	Early onset dystonia
+192	1.49	Early onset dystonia
 155	1.12	Early onset familial premature ovarian insufficiency	Early onset familial premature ovarian failure
 136	1.15	Ectodermal dysplasia without a known gene mutation
 53	1.33	Ehlers-Danlos syndromes	Classical Ehlers Danlos Syndrome;Ehlers-Danlos Syndrome (unusual phenotypes e.g. absent pain sense);Ehlers-Danlos syndrome type 3;Kyphoscoliotic Ehlers-Danlos syndrome;EDS
@@ -96,5 +96,127 @@
 412	0.6	Gene therapy clinical trials
 132	1.7	Generalised pustular psoriasis
 160	1.9	Genetic Epilepsies with Febrile Seizures Plus (GEFS+)	Genetic Epilepsies with Febrile Seizures Plus
-402	0.414	Genetic Epilepsy Syndromes	Epilepsy Plus;Epilepsy plus other features
+402	0.426	Genetic Epilepsy Syndromes	Epilepsy Plus;Epilepsy plus other features
 201	1.4	Genodermatoses with malignancies
+249	1.4	Glaucoma (developmental)
+407	1.0	Haematological malignancies for rare disease
+59	1.2	Haematological malignancies pertinent cancer susceptibility	Haemonc
+115	1.0	Head and neck cancer pertinent cancer susceptibility	Nasopharyngeal;Oral Oropharyngeal;Sinonasal
+157	1.1	Hereditary Erythrocytosis
+20	1.122	Hereditary ataxia
+123	1.29	Hereditary haemorrhagic telangiectasia	Familial and multiple pulmonary arteriovenous malformations
+165	1.65	Hereditary spastic paraplegia
+78	1.3	Holoprosencephaly	Rhombencephalosynapsis;Holoprosencephaly - NOT chromosomal
+310	1.2	Hydroa vacciniforme
+179	1.22	Hydrocephalus
+267	1.8	Hyperammonaemia
+308	1.2	Hyperinsulinism
+49	1.21	Hypertrophic Cardiomyopathy	HCM
+131	1.25	IUGR and IGF abnormalities
+92	1.14	Idiopathic hypogonadotropic hypogonadism	Kallmann syndrome;Kallmann syndrom
+277	1.0	Idiopathic ventricular fibrillation
+417	0.2	Immunological disorders Victorian Clinical Genetics Services
+176	1.16	Infantile enterocolitis & monogenic inflammatory bowel disease	Infantile enterocolitis and monogenic inflammatory bowel disease
+246	1.2	Infantile nystagmus
+175	1.144	Inherited bleeding disorders	Inherited platelet disorders;Monogenic thrombophilia;Bleeding and platelet disorders;Inherited bleeding and or platelet disorders;Unprovoked Thrombosis before 40;Monogenic venous thrombosis
+171	1.4	Inherited non-medullary thyroid cancer
+186	1.22	Inherited optic neuropathies
+42	1.19	Inherited white matter disorders
+174	1.3	Insulin resistance (including lipodystrophy	Insulin resistance (including lipodystrophy);Insulin resistance (including lipodystrophy
+285	2.447	Intellectual disability	Coarse facial features including Coffin-Siris-like disorders;ID;Moderate;severe or profound intellectual disability
+414	0.2	Intellectual disability Victorian Clinical Genetics Services
+315	1.10	Intracerebral calcification disorders
+239	1.2	Juvenile dermatomyositis
+173	1.2	Kabuki syndrome
+248	1.2	Ketotic hypoglycaemia
+213	1.3	Kleine-Levin syndrome	Kleine-Levin syndrome and other inherited sleep disorders
+238	1.2	Left Ventricular Noncompaction Cardiomyopathy
+427	0.2	Leukodystrophy Victorian Clinical Genetics Services
+384	0.172	Limb disorders
+185	1.11	Limb girdle muscular dystrophy
+76	1.5	Long QT syndrome
+218	1.0	Lung cancer pertinent cancer susceptibility	Lung
+65	1.26	Lymphatic Disorders	Meiges disease;Meige disease;Milroy disease;Lymphoedema distichiasis;Lipoedema disease;Primary lymphoedema
+96	1.152	Malformations of cortical development
+133	1.0	Melanoma pertinent cancer susceptibility	Malignant Melanoma
+423	0.2	Microcephaly Victorian Clinical Genetics Services
+112	1.68	Mitochondrial disorders	Lactic acidosis;All recognised syndromes and those with suggestive features
+420	0.2	Mitochondrial disorders AD Victorian Clinical Genetics Services
+419	0.2	Mitochondrial disorders Victorian Clinical Genetics Services
+111	0.8	Monogenic viral susceptibility
+75	1.2	Mucopolysaccharideosis, Gaucher, Fabry
+87	1.7	Multi-organ autoimmune diabetes
+211	1.2	Multiple Epiphyseal Dysplasia
+36	1.5	Multiple endocrine tumours
+19	1.1	Multiple lipomas
+61	1.7	Neonatal and familial gastrointestinal neuromuscular disorders	Infantile pseudo-obstruction;Early onset or familial intestinal pseudo obstruction
+385	1.2	Neonatal cholestasis	Cholestasis
+293	1.7	Neonatal diabetes diagnosed <6 months	Neonatal diabetes (diagnosed less than 6 months);Neonatal diabetes
+43	0.4	Neonatal or paediatric intensive care admission with a likely monogenic cause	Neonatal or paediatric intensive care admission with a likely monogenic disease
+97	1.2	Neuro-endocrine Tumours- PCC and PGL
+183	1.0	Neuroendocrine cancer pertinent cancer susceptibility	phaeochromocytoma;paraganglioma;carcinoid;Neuroendocrine
+255	1.25	Neurofibromatosis Type 1
+219	1.3	Neurotransmitter disorders
+296	1.3	Non-CF bronchiectasis
+253	0.58	Non-syndromic familial congenital anorectal malformations
+189	1.1	Non-syndromic hypotrichosis
+128	1.20	Ocular and oculo-cutaneous albinism
+294	1.16	Ocular coloboma
+196	1.12	Osteogenesis Imperfecta	Osteogenesis imperfecta
+428	0.2	Osteogenesis imperfecta Victorian Clinical Genetics Services
+117	1.0	Ovarian cancer pertinent cancer susceptibility	Ovarian
+94	1.1	PHACE(S) syndrome
+243	1.19	Paediatric congenital malformation-dysmorphism-tumour syndrome	Paediatric congenital malformation-dysmorphism-tumour syndromes;Paediatric congenital malformation-dysmorphism-tumour sydromes;Paediatric congenital malformation-dysmorphism-tumour syndrome
+79	1.14	Paediatric motor neuronopathies
+288	1.2	Pain syndromes	neuropathic pain;Pain channelopathies
+215	1.15	Palmoplantar keratoderma and erythrokeratodermas
+386	0.18	Pancreatitis
+86	1.3	Parathyroid Cancer	Parathyroid cancer
+39	1.45	Parkinson Disease and Complex Parkinsonism	Complex Parkinsonism (includes pallido-pyramidal syndromes);Early onset and familial Parkinson's Disease
+24	1.2	Peeling skin syndrome
+60	1.10	Periodic fever syndromes	Periodic fever syndromes and amyloidosis
+114	1.6	Peroxisomal disorders	Other peroxisomal disorders;Peroxisomal biogenesis disorders
+311	1.1	Pityriasis rubra pilaris
+418	0.2	Polydactyly Victorian Clinical Genetics Services
+307	1.86	Posterior segment abnormalities	Cone Dysfunction Syndrome;Developmental macular and foveal dystrophy;Inherited macular dystrophy;Leber Congenital Amaurosis Early-Onset Severe Retinal Dystrophy;Leber Congenital Amaurosis / Early-Onset Severe Retinal Dystrophy;Leber Congenital Amaurosis or Early-Onset Severe Retinal Dystrophy;Rod Dysfunction Syndrome;Rod-cone dystrophy;Familial exudative vitreoretinopathy;Familial exudative retinopathy
+83	1.1	Primary Membranoproliferative Glomerulonephritis	PMG;MPGN
+162	1.37	Primary Microcephaly - Microcephalic Dwarfism Spectrum
+178	1.14	Primary ciliary disorders	Primary ciliary dyskinesia
+398	1.14	Primary immunodeficiency disorders	A- or hypo-gammaglobulinaemia;Congenital neutropaenia;Agranulocytosis;Combined B and T cell defect;Inherited complement deficiency;SCID;Primary immune disorder;Primary immunodeficiency;A-gammaglobulinaemia;Agammaglobulinaemia;hypo-gammaglobulinaemia;hypogammaglobulinemia;immune deficiency syndromes;Severe combined immunodeficiency;Congenital neutopenia;Familial haemophagocytic lymphohistiocytic disorders;Familial hemophagocytic lymphohistiocytic disorders;PID
+17	1.0	Prostate cancer pertinent cancer susceptibility	Prostate
+106	1.11	Proteinuric renal disease
+193	1.33	Pulmonary arterial hypertension	PAH
+48	1.27	RASopathies	Cardio-facio-cutaneous syndrome;Costello syndrome;LEOPARD syndrome;Legius syndrome;Noonan syndrome;Noonan syndrome plus other features
+415	0.2	Radial Ray abnormality Victorian Clinical Genetics Services
+247	1.6	Radial dysplasia
+150	1.48	Rare multisystem ciliopathy disorders	Joubert syndrome;Bardet-Biedl Syndrome
+8	0.10	Refuted genes
+98	1.3	Regional overgrowth disorders
+154	1.0	Renal cancer pertinent cancer susceptibility	Renal
+149	1.14	Renal tract calcification (or Nephrolithiasis/nephrocalcinosis)	Renal tract calcification (or Nephrolithiasis or nephrocalcinosis)
+292	1.8	Renal tubular acidosis
+236	1.4	Resistance to thyroid hormone
+66	1.21	Rhabdomyolysis and metabolic muscle disorders
+217	1.0	Sarcoma pertinent cancer susceptibility	Sarcoma
+262	1.2	Severe familial anorexia
+228	1.8	Severe hypertriglyceridaemia
+62	1.7	Severe multi-system atopic disease with high IgE
+224	0.1	Short QT syndrome
+130	1.5	Significant early-onset obesity +/- other endocrine features and short stature	Significant early-onset obesity with or without other endocrine features and short stature
+199	1.3	Silver Russell syndrome	Silver-Russell syndrome
+182	0.2	Single autosomal recessive mutation in rare disease
+229	1.9	Skeletal Muscle Channelopathies
+3	1.23	Stickler syndrome
+180	1.8	Structural basal ganglia disorders
+45	1.9	Sudden death in young people	Unexplained sudden death in the young
+82	1.0	Testicular cancer pertinent cancer susceptibility	Testicular Germ Cell Tumours
+122	1.2	Thoracic dystrophies
+421	1.0	Thyroid cancer pertinent cancer susceptibility	Endocrine
+302	1.78	Undiagnosed metabolic disorders	Undiagnosed Metabolic Panel
+156	1.15	Unexplained kidney failure in young people
+298	0.3	Unexplained monogenic fetal disorders
+309	1.122	Unexplained skeletal dysplasia	Skeletal dysplasia
+273	1.0	Upper gastrointestinal cancer pertinent cancer susceptibility	Hepatopancreatobiliary;Upper Gastrointestinal
+101	1.22	VACTERL-like phenotypes
+222	1.1	Vici Syndrome and other autophagy disorders
+18	1.5	monogenic nephrogenic diabetes insipidus	Monogenic nephrogenic diabetes insipidus

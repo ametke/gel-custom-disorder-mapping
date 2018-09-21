@@ -1,0 +1,3129 @@
+{
+  "resourceType": "CodeSystem",
+  "url": "http://genomicsengland.co.uk/panels",
+  "name": "GEL PanelApp panel List",
+  "status": "draft",
+  "valueSet": "http://genomicsengland.co.uk/panels",
+  "hierarchyMeaning": "grouped-by",
+  "content": "complete",
+  "property": [
+    {
+      "code": "version",
+      "type": "string"
+    },
+    {
+      "code": "id",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "391-1.20",
+      "display": "Adult solid tumours for rare disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.20"
+        },
+        {
+          "code": "id",
+          "valueString": "391"
+        }
+      ]
+    },
+    {
+      "code": "245-1.0",
+      "display": "Adult solid tumours pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "245"
+        }
+      ]
+    },
+    {
+      "code": "269-1.4",
+      "display": "Amelogenesis Imperfecta",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "269"
+        }
+      ]
+    },
+    {
+      "code": "263-1.20",
+      "display": "Amyotrophic lateral sclerosis/motor neuron disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.20"
+        },
+        {
+          "code": "id",
+          "valueString": "263"
+        }
+      ]
+    },
+    {
+      "code": "34-1.14",
+      "display": "Anophthalmia or microphthalmia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "34"
+        }
+      ]
+    },
+    {
+      "code": "134-1.4",
+      "display": "Arrhythmogenic Right Ventricular Cardiomyopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "134"
+        }
+      ]
+    },
+    {
+      "code": "258-2.29",
+      "display": "Arthrogryposis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "2.29"
+        },
+        {
+          "code": "id",
+          "valueString": "258"
+        }
+      ]
+    },
+    {
+      "code": "424-0.4",
+      "display": "Arthrogryposis Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.4"
+        },
+        {
+          "code": "id",
+          "valueString": "424"
+        }
+      ]
+    },
+    {
+      "code": "139-1.3",
+      "display": "Atypical haemolytic uraemic syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "139"
+        }
+      ]
+    },
+    {
+      "code": "260-1.5",
+      "display": "Auditory Neuropathy Spectrum Disorde",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "260"
+        }
+      ]
+    },
+    {
+      "code": "282-1.7",
+      "display": "Autosomal recessive congenital ichthyosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "282"
+        }
+      ]
+    },
+    {
+      "code": "38-1.42",
+      "display": "Beckwith-Wiedemann syndrome (BWS) and other congenital overgrowth disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.42"
+        },
+        {
+          "code": "id",
+          "valueString": "38"
+        }
+      ]
+    },
+    {
+      "code": "208-1.0",
+      "display": "Bladder cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "208"
+        }
+      ]
+    },
+    {
+      "code": "166-1.0",
+      "display": "Brain cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "166"
+        }
+      ]
+    },
+    {
+      "code": "90-1.31",
+      "display": "Brain channelopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.31"
+        },
+        {
+          "code": "id",
+          "valueString": "90"
+        }
+      ]
+    },
+    {
+      "code": "55-1.0",
+      "display": "Breast cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "55"
+        }
+      ]
+    },
+    {
+      "code": "13-1.7",
+      "display": "Brugada syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "13"
+        }
+      ]
+    },
+    {
+      "code": "234-1.25",
+      "display": "CAKUT",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.25"
+        },
+        {
+          "code": "id",
+          "valueString": "234"
+        }
+      ]
+    },
+    {
+      "code": "230-1.20",
+      "display": "Cataracts",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.20"
+        },
+        {
+          "code": "id",
+          "valueString": "230"
+        }
+      ]
+    },
+    {
+      "code": "214-1.2",
+      "display": "Catecholaminergic Polymorphic Ventricular Tachycardia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "214"
+        }
+      ]
+    },
+    {
+      "code": "425-0.2",
+      "display": "Cerebellar and Pontocerebellar hypoplasia Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "425"
+        }
+      ]
+    },
+    {
+      "code": "286-1.20",
+      "display": "Cerebellar hypoplasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.20"
+        },
+        {
+          "code": "id",
+          "valueString": "286"
+        }
+      ]
+    },
+    {
+      "code": "109-1.2",
+      "display": "Cerebral folate deficiency",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "109"
+        }
+      ]
+    },
+    {
+      "code": "147-1.34",
+      "display": "Cerebrovascular disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.34"
+        },
+        {
+          "code": "id",
+          "valueString": "147"
+        }
+      ]
+    },
+    {
+      "code": "85-1.25",
+      "display": "Charcot-Marie-Tooth disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.25"
+        },
+        {
+          "code": "id",
+          "valueString": "85"
+        }
+      ]
+    },
+    {
+      "code": "259-1.0",
+      "display": "Childhood solid tumours pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "259"
+        }
+      ]
+    },
+    {
+      "code": "221-1.12",
+      "display": "Choanal atresia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.12"
+        },
+        {
+          "code": "id",
+          "valueString": "221"
+        }
+      ]
+    },
+    {
+      "code": "416-0.2",
+      "display": "Cholestasis Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "416"
+        }
+      ]
+    },
+    {
+      "code": "30-1.2",
+      "display": "Chondrodysplasia punctata",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "30"
+        }
+      ]
+    },
+    {
+      "code": "422-0.2",
+      "display": "Ciliopathies Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "422"
+        }
+      ]
+    },
+    {
+      "code": "197-1.2",
+      "display": "Classical tuberous sclerosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "197"
+        }
+      ]
+    },
+    {
+      "code": "431-0.1",
+      "display": "Cleft palate or lip Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.1"
+        },
+        {
+          "code": "id",
+          "valueString": "431"
+        }
+      ]
+    },
+    {
+      "code": "81-1.29",
+      "display": "Clefting",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.29"
+        },
+        {
+          "code": "id",
+          "valueString": "81"
+        }
+      ]
+    },
+    {
+      "code": "64-0.63",
+      "display": "ClinGen Gene Validity Curations",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.63"
+        },
+        {
+          "code": "id",
+          "valueString": "64"
+        }
+      ]
+    },
+    {
+      "code": "210-0.10",
+      "display": "ClinGen_Familial thoracic aortic aneurysm and aortic dissection",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.10"
+        },
+        {
+          "code": "id",
+          "valueString": "210"
+        }
+      ]
+    },
+    {
+      "code": "77-1.5",
+      "display": "Cockayne and Xeroderma Pigmentosum-like disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "77"
+        }
+      ]
+    },
+    {
+      "code": "244-1.0",
+      "display": "Colorectal cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "244"
+        }
+      ]
+    },
+    {
+      "code": "145-1.5",
+      "display": "Congenital adrenal hypoplasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "145"
+        }
+      ]
+    },
+    {
+      "code": "25-1.19",
+      "display": "Congenital disorders of glycosylation",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.19"
+        },
+        {
+          "code": "id",
+          "valueString": "25"
+        }
+      ]
+    },
+    {
+      "code": "126-1.43",
+      "display": "Congenital hearing impairment (profound/severe)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.43"
+        },
+        {
+          "code": "id",
+          "valueString": "126"
+        }
+      ]
+    },
+    {
+      "code": "31-1.2",
+      "display": "Congenital hypothyroidism or thyroid agenesis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "31"
+        }
+      ]
+    },
+    {
+      "code": "207-1.15",
+      "display": "Congenital muscular dystrophy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.15"
+        },
+        {
+          "code": "id",
+          "valueString": "207"
+        }
+      ]
+    },
+    {
+      "code": "232-1.9",
+      "display": "Congenital myaesthenia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.9"
+        },
+        {
+          "code": "id",
+          "valueString": "232"
+        }
+      ]
+    },
+    {
+      "code": "225-1.60",
+      "display": "Congenital myopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.60"
+        },
+        {
+          "code": "id",
+          "valueString": "225"
+        }
+      ]
+    },
+    {
+      "code": "250-1.4",
+      "display": "Corneal abnormalities",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "250"
+        }
+      ]
+    },
+    {
+      "code": "426-0.2",
+      "display": "Craniosynostosis Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "426"
+        }
+      ]
+    },
+    {
+      "code": "168-1.39",
+      "display": "Craniosynostosis syndromes phenotypes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.39"
+        },
+        {
+          "code": "id",
+          "valueString": "168"
+        }
+      ]
+    },
+    {
+      "code": "5-1.1",
+      "display": "Currarino triad",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "5"
+        }
+      ]
+    },
+    {
+      "code": "283-1.29",
+      "display": "Cystic kidney disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.29"
+        },
+        {
+          "code": "id",
+          "valueString": "283"
+        }
+      ]
+    },
+    {
+      "code": "159-1.65",
+      "display": "Cytopaenias and congenital anaemias",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.65"
+        },
+        {
+          "code": "id",
+          "valueString": "159"
+        }
+      ]
+    },
+    {
+      "code": "251-1.10",
+      "display": "Deafness and congenital structural abnormalities",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.10"
+        },
+        {
+          "code": "id",
+          "valueString": "251"
+        }
+      ]
+    },
+    {
+      "code": "26-1.55",
+      "display": "Diabetes with additional phenotypes suggestive of a monogenic aetiology",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.55"
+        },
+        {
+          "code": "id",
+          "valueString": "26"
+        }
+      ]
+    },
+    {
+      "code": "47-1.33",
+      "display": "Dilated Cardiomyopathy and conduction defects",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.33"
+        },
+        {
+          "code": "id",
+          "valueString": "47"
+        }
+      ]
+    },
+    {
+      "code": "9-1.24",
+      "display": "Disorders of sex development",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.24"
+        },
+        {
+          "code": "id",
+          "valueString": "9"
+        }
+      ]
+    },
+    {
+      "code": "188-0.11",
+      "display": "Disseminated non-tuberculous mycobacterial infection",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.11"
+        },
+        {
+          "code": "id",
+          "valueString": "188"
+        }
+      ]
+    },
+    {
+      "code": "235-1.6",
+      "display": "Distal myopathies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "235"
+        }
+      ]
+    },
+    {
+      "code": "209-0.1",
+      "display": "Ductal plate malformation (DPM)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.1"
+        },
+        {
+          "code": "id",
+          "valueString": "209"
+        }
+      ]
+    },
+    {
+      "code": "265-1.22",
+      "display": "Early onset dementia (encompassing fronto-temporal dementia and prion disease)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.22"
+        },
+        {
+          "code": "id",
+          "valueString": "265"
+        }
+      ]
+    },
+    {
+      "code": "192-1.49",
+      "display": "Early onset dystonia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.49"
+        },
+        {
+          "code": "id",
+          "valueString": "192"
+        }
+      ]
+    },
+    {
+      "code": "155-1.12",
+      "display": "Early onset familial premature ovarian insufficiency",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.12"
+        },
+        {
+          "code": "id",
+          "valueString": "155"
+        }
+      ]
+    },
+    {
+      "code": "136-1.15",
+      "display": "Ectodermal dysplasia without a known gene mutation",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.15"
+        },
+        {
+          "code": "id",
+          "valueString": "136"
+        }
+      ]
+    },
+    {
+      "code": "53-1.33",
+      "display": "Ehlers-Danlos syndromes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.33"
+        },
+        {
+          "code": "id",
+          "valueString": "53"
+        }
+      ]
+    },
+    {
+      "code": "271-1.0",
+      "display": "Endometrial cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "271"
+        }
+      ]
+    },
+    {
+      "code": "119-1.3",
+      "display": "Epidermolysis bullosa",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "119"
+        }
+      ]
+    },
+    {
+      "code": "67-1.143",
+      "display": "Epileptic encephalopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.143"
+        },
+        {
+          "code": "id",
+          "valueString": "67"
+        }
+      ]
+    },
+    {
+      "code": "413-0.2",
+      "display": "Epileptic encephalopathy Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "413"
+        }
+      ]
+    },
+    {
+      "code": "91-1.2",
+      "display": "Erythropoietic protoporphyria, mild variant",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "91"
+        }
+      ]
+    },
+    {
+      "code": "314-1.8",
+      "display": "Extreme early-onset hypertension",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "314"
+        }
+      ]
+    },
+    {
+      "code": "252-1.10",
+      "display": "Familial Focal Epilepsies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.10"
+        },
+        {
+          "code": "id",
+          "valueString": "252"
+        }
+      ]
+    },
+    {
+      "code": "240-1.23",
+      "display": "Familial Genetic Generalised Epilepsies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.23"
+        },
+        {
+          "code": "id",
+          "valueString": "240"
+        }
+      ]
+    },
+    {
+      "code": "63-1.5",
+      "display": "Familial Hirschsprung Disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "63"
+        }
+      ]
+    },
+    {
+      "code": "394-1.1",
+      "display": "Familial Meniere Disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "394"
+        }
+      ]
+    },
+    {
+      "code": "11-1.5",
+      "display": "Familial Neural Tube Defects",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "11"
+        }
+      ]
+    },
+    {
+      "code": "105-1.6",
+      "display": "Familial Pneumothorax",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "105"
+        }
+      ]
+    },
+    {
+      "code": "1-1.75",
+      "display": "Familial Thoracic Aortic Aneurysm Disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.75"
+        },
+        {
+          "code": "id",
+          "valueString": "1"
+        }
+      ]
+    },
+    {
+      "code": "167-1.8",
+      "display": "Familial Tumours Syndromes of the central & peripheral Nervous system",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "167"
+        }
+      ]
+    },
+    {
+      "code": "158-1.13",
+      "display": "Familial breast cancer",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.13"
+        },
+        {
+          "code": "id",
+          "valueString": "158"
+        }
+      ]
+    },
+    {
+      "code": "50-1.3",
+      "display": "Familial cerebral small vessel disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "50"
+        }
+      ]
+    },
+    {
+      "code": "305-1.1",
+      "display": "Familial cicatricial alopecia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "305"
+        }
+      ]
+    },
+    {
+      "code": "152-1.13",
+      "display": "Familial diabetes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.13"
+        },
+        {
+          "code": "id",
+          "valueString": "152"
+        }
+      ]
+    },
+    {
+      "code": "110-1.1",
+      "display": "Familial disseminated superficial actinic porokeratosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "110"
+        }
+      ]
+    },
+    {
+      "code": "7-1.4",
+      "display": "Familial dysautonomia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "7"
+        }
+      ]
+    },
+    {
+      "code": "99-1.14",
+      "display": "Familial haematuria",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "99"
+        }
+      ]
+    },
+    {
+      "code": "23-1.1",
+      "display": "Familial hidradenitis suppurativa",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "23"
+        }
+      ]
+    },
+    {
+      "code": "6-1.19",
+      "display": "Familial hypercholesterolaemia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.19"
+        },
+        {
+          "code": "id",
+          "valueString": "6"
+        }
+      ]
+    },
+    {
+      "code": "212-1.33",
+      "display": "Familial non syndromic congenital heart disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.33"
+        },
+        {
+          "code": "id",
+          "valueString": "212"
+        }
+      ]
+    },
+    {
+      "code": "312-1.6",
+      "display": "Familial or syndromic hypoparathyroidism",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "312"
+        }
+      ]
+    },
+    {
+      "code": "143-1.1",
+      "display": "Familial ovarian cancer",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "143"
+        }
+      ]
+    },
+    {
+      "code": "318-1.1",
+      "display": "Familial prostate cancer",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "318"
+        }
+      ]
+    },
+    {
+      "code": "200-1.3",
+      "display": "Familial pulmonary fibrosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "200"
+        }
+      ]
+    },
+    {
+      "code": "290-1.0",
+      "display": "Familial rhabdomyosarcoma",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "290"
+        }
+      ]
+    },
+    {
+      "code": "144-1.15",
+      "display": "Fetal hydrops",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.15"
+        },
+        {
+          "code": "id",
+          "valueString": "144"
+        }
+      ]
+    },
+    {
+      "code": "220-0.4",
+      "display": "Fetal structural CNS abnormalities",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.4"
+        },
+        {
+          "code": "id",
+          "valueString": "220"
+        }
+      ]
+    },
+    {
+      "code": "254-1.6",
+      "display": "GI tract tumours",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "254"
+        }
+      ]
+    },
+    {
+      "code": "33-1.58",
+      "display": "Gastrointestinal epithelial barrier disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.58"
+        },
+        {
+          "code": "id",
+          "valueString": "33"
+        }
+      ]
+    },
+    {
+      "code": "412-0.6",
+      "display": "Gene therapy clinical trials",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.6"
+        },
+        {
+          "code": "id",
+          "valueString": "412"
+        }
+      ]
+    },
+    {
+      "code": "132-1.7",
+      "display": "Generalised pustular psoriasis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "132"
+        }
+      ]
+    },
+    {
+      "code": "160-1.9",
+      "display": "Genetic Epilepsies with Febrile Seizures Plus (GEFS+)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.9"
+        },
+        {
+          "code": "id",
+          "valueString": "160"
+        }
+      ]
+    },
+    {
+      "code": "402-0.426",
+      "display": "Genetic Epilepsy Syndromes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.426"
+        },
+        {
+          "code": "id",
+          "valueString": "402"
+        }
+      ]
+    },
+    {
+      "code": "201-1.4",
+      "display": "Genodermatoses with malignancies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "201"
+        }
+      ]
+    },
+    {
+      "code": "249-1.4",
+      "display": "Glaucoma (developmental)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "249"
+        }
+      ]
+    },
+    {
+      "code": "407-1.0",
+      "display": "Haematological malignancies for rare disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "407"
+        }
+      ]
+    },
+    {
+      "code": "59-1.2",
+      "display": "Haematological malignancies pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "59"
+        }
+      ]
+    },
+    {
+      "code": "115-1.0",
+      "display": "Head and neck cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "115"
+        }
+      ]
+    },
+    {
+      "code": "157-1.1",
+      "display": "Hereditary Erythrocytosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "157"
+        }
+      ]
+    },
+    {
+      "code": "20-1.122",
+      "display": "Hereditary ataxia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.122"
+        },
+        {
+          "code": "id",
+          "valueString": "20"
+        }
+      ]
+    },
+    {
+      "code": "123-1.29",
+      "display": "Hereditary haemorrhagic telangiectasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.29"
+        },
+        {
+          "code": "id",
+          "valueString": "123"
+        }
+      ]
+    },
+    {
+      "code": "165-1.65",
+      "display": "Hereditary spastic paraplegia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.65"
+        },
+        {
+          "code": "id",
+          "valueString": "165"
+        }
+      ]
+    },
+    {
+      "code": "78-1.3",
+      "display": "Holoprosencephaly",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "78"
+        }
+      ]
+    },
+    {
+      "code": "310-1.2",
+      "display": "Hydroa vacciniforme",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "310"
+        }
+      ]
+    },
+    {
+      "code": "179-1.22",
+      "display": "Hydrocephalus",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.22"
+        },
+        {
+          "code": "id",
+          "valueString": "179"
+        }
+      ]
+    },
+    {
+      "code": "267-1.8",
+      "display": "Hyperammonaemia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "267"
+        }
+      ]
+    },
+    {
+      "code": "308-1.2",
+      "display": "Hyperinsulinism",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "308"
+        }
+      ]
+    },
+    {
+      "code": "49-1.21",
+      "display": "Hypertrophic Cardiomyopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.21"
+        },
+        {
+          "code": "id",
+          "valueString": "49"
+        }
+      ]
+    },
+    {
+      "code": "131-1.25",
+      "display": "IUGR and IGF abnormalities",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.25"
+        },
+        {
+          "code": "id",
+          "valueString": "131"
+        }
+      ]
+    },
+    {
+      "code": "92-1.14",
+      "display": "Idiopathic hypogonadotropic hypogonadism",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "92"
+        }
+      ]
+    },
+    {
+      "code": "277-1.0",
+      "display": "Idiopathic ventricular fibrillation",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "277"
+        }
+      ]
+    },
+    {
+      "code": "417-0.2",
+      "display": "Immunological disorders Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "417"
+        }
+      ]
+    },
+    {
+      "code": "176-1.16",
+      "display": "Infantile enterocolitis & monogenic inflammatory bowel disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.16"
+        },
+        {
+          "code": "id",
+          "valueString": "176"
+        }
+      ]
+    },
+    {
+      "code": "246-1.2",
+      "display": "Infantile nystagmus",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "246"
+        }
+      ]
+    },
+    {
+      "code": "175-1.144",
+      "display": "Inherited bleeding disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.144"
+        },
+        {
+          "code": "id",
+          "valueString": "175"
+        }
+      ]
+    },
+    {
+      "code": "171-1.4",
+      "display": "Inherited non-medullary thyroid cancer",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "171"
+        }
+      ]
+    },
+    {
+      "code": "186-1.22",
+      "display": "Inherited optic neuropathies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.22"
+        },
+        {
+          "code": "id",
+          "valueString": "186"
+        }
+      ]
+    },
+    {
+      "code": "42-1.19",
+      "display": "Inherited white matter disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.19"
+        },
+        {
+          "code": "id",
+          "valueString": "42"
+        }
+      ]
+    },
+    {
+      "code": "174-1.3",
+      "display": "Insulin resistance (including lipodystrophy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "174"
+        }
+      ]
+    },
+    {
+      "code": "285-2.447",
+      "display": "Intellectual disability",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "2.447"
+        },
+        {
+          "code": "id",
+          "valueString": "285"
+        }
+      ]
+    },
+    {
+      "code": "414-0.2",
+      "display": "Intellectual disability Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "414"
+        }
+      ]
+    },
+    {
+      "code": "315-1.10",
+      "display": "Intracerebral calcification disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.10"
+        },
+        {
+          "code": "id",
+          "valueString": "315"
+        }
+      ]
+    },
+    {
+      "code": "239-1.2",
+      "display": "Juvenile dermatomyositis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "239"
+        }
+      ]
+    },
+    {
+      "code": "173-1.2",
+      "display": "Kabuki syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "173"
+        }
+      ]
+    },
+    {
+      "code": "248-1.2",
+      "display": "Ketotic hypoglycaemia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "248"
+        }
+      ]
+    },
+    {
+      "code": "213-1.3",
+      "display": "Kleine-Levin syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "213"
+        }
+      ]
+    },
+    {
+      "code": "238-1.2",
+      "display": "Left Ventricular Noncompaction Cardiomyopathy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "238"
+        }
+      ]
+    },
+    {
+      "code": "427-0.2",
+      "display": "Leukodystrophy Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "427"
+        }
+      ]
+    },
+    {
+      "code": "384-0.172",
+      "display": "Limb disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.172"
+        },
+        {
+          "code": "id",
+          "valueString": "384"
+        }
+      ]
+    },
+    {
+      "code": "185-1.11",
+      "display": "Limb girdle muscular dystrophy",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.11"
+        },
+        {
+          "code": "id",
+          "valueString": "185"
+        }
+      ]
+    },
+    {
+      "code": "76-1.5",
+      "display": "Long QT syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "76"
+        }
+      ]
+    },
+    {
+      "code": "218-1.0",
+      "display": "Lung cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "218"
+        }
+      ]
+    },
+    {
+      "code": "65-1.26",
+      "display": "Lymphatic Disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.26"
+        },
+        {
+          "code": "id",
+          "valueString": "65"
+        }
+      ]
+    },
+    {
+      "code": "96-1.152",
+      "display": "Malformations of cortical development",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.152"
+        },
+        {
+          "code": "id",
+          "valueString": "96"
+        }
+      ]
+    },
+    {
+      "code": "133-1.0",
+      "display": "Melanoma pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "133"
+        }
+      ]
+    },
+    {
+      "code": "423-0.2",
+      "display": "Microcephaly Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "423"
+        }
+      ]
+    },
+    {
+      "code": "112-1.68",
+      "display": "Mitochondrial disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.68"
+        },
+        {
+          "code": "id",
+          "valueString": "112"
+        }
+      ]
+    },
+    {
+      "code": "420-0.2",
+      "display": "Mitochondrial disorders AD Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "420"
+        }
+      ]
+    },
+    {
+      "code": "419-0.2",
+      "display": "Mitochondrial disorders Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "419"
+        }
+      ]
+    },
+    {
+      "code": "111-0.8",
+      "display": "Monogenic viral susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.8"
+        },
+        {
+          "code": "id",
+          "valueString": "111"
+        }
+      ]
+    },
+    {
+      "code": "75-1.2",
+      "display": "Mucopolysaccharideosis, Gaucher, Fabry",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "75"
+        }
+      ]
+    },
+    {
+      "code": "87-1.7",
+      "display": "Multi-organ autoimmune diabetes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "87"
+        }
+      ]
+    },
+    {
+      "code": "211-1.2",
+      "display": "Multiple Epiphyseal Dysplasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "211"
+        }
+      ]
+    },
+    {
+      "code": "36-1.5",
+      "display": "Multiple endocrine tumours",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "36"
+        }
+      ]
+    },
+    {
+      "code": "19-1.1",
+      "display": "Multiple lipomas",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "19"
+        }
+      ]
+    },
+    {
+      "code": "61-1.7",
+      "display": "Neonatal and familial gastrointestinal neuromuscular disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "61"
+        }
+      ]
+    },
+    {
+      "code": "385-1.2",
+      "display": "Neonatal cholestasis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "385"
+        }
+      ]
+    },
+    {
+      "code": "293-1.7",
+      "display": "Neonatal diabetes diagnosed <6 months",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "293"
+        }
+      ]
+    },
+    {
+      "code": "43-0.4",
+      "display": "Neonatal or paediatric intensive care admission with a likely monogenic cause",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.4"
+        },
+        {
+          "code": "id",
+          "valueString": "43"
+        }
+      ]
+    },
+    {
+      "code": "97-1.2",
+      "display": "Neuro-endocrine Tumours- PCC and PGL",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "97"
+        }
+      ]
+    },
+    {
+      "code": "183-1.0",
+      "display": "Neuroendocrine cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "183"
+        }
+      ]
+    },
+    {
+      "code": "255-1.25",
+      "display": "Neurofibromatosis Type 1",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.25"
+        },
+        {
+          "code": "id",
+          "valueString": "255"
+        }
+      ]
+    },
+    {
+      "code": "219-1.3",
+      "display": "Neurotransmitter disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "219"
+        }
+      ]
+    },
+    {
+      "code": "296-1.3",
+      "display": "Non-CF bronchiectasis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "296"
+        }
+      ]
+    },
+    {
+      "code": "253-0.58",
+      "display": "Non-syndromic familial congenital anorectal malformations",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.58"
+        },
+        {
+          "code": "id",
+          "valueString": "253"
+        }
+      ]
+    },
+    {
+      "code": "189-1.1",
+      "display": "Non-syndromic hypotrichosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "189"
+        }
+      ]
+    },
+    {
+      "code": "128-1.20",
+      "display": "Ocular and oculo-cutaneous albinism",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.20"
+        },
+        {
+          "code": "id",
+          "valueString": "128"
+        }
+      ]
+    },
+    {
+      "code": "294-1.16",
+      "display": "Ocular coloboma",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.16"
+        },
+        {
+          "code": "id",
+          "valueString": "294"
+        }
+      ]
+    },
+    {
+      "code": "196-1.12",
+      "display": "Osteogenesis Imperfecta",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.12"
+        },
+        {
+          "code": "id",
+          "valueString": "196"
+        }
+      ]
+    },
+    {
+      "code": "428-0.2",
+      "display": "Osteogenesis imperfecta Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "428"
+        }
+      ]
+    },
+    {
+      "code": "117-1.0",
+      "display": "Ovarian cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "117"
+        }
+      ]
+    },
+    {
+      "code": "94-1.1",
+      "display": "PHACE(S) syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "94"
+        }
+      ]
+    },
+    {
+      "code": "243-1.19",
+      "display": "Paediatric congenital malformation-dysmorphism-tumour syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.19"
+        },
+        {
+          "code": "id",
+          "valueString": "243"
+        }
+      ]
+    },
+    {
+      "code": "79-1.14",
+      "display": "Paediatric motor neuronopathies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "79"
+        }
+      ]
+    },
+    {
+      "code": "288-1.2",
+      "display": "Pain syndromes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "288"
+        }
+      ]
+    },
+    {
+      "code": "215-1.15",
+      "display": "Palmoplantar keratoderma and erythrokeratodermas",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.15"
+        },
+        {
+          "code": "id",
+          "valueString": "215"
+        }
+      ]
+    },
+    {
+      "code": "386-0.18",
+      "display": "Pancreatitis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.18"
+        },
+        {
+          "code": "id",
+          "valueString": "386"
+        }
+      ]
+    },
+    {
+      "code": "86-1.3",
+      "display": "Parathyroid Cancer",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "86"
+        }
+      ]
+    },
+    {
+      "code": "39-1.45",
+      "display": "Parkinson Disease and Complex Parkinsonism",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.45"
+        },
+        {
+          "code": "id",
+          "valueString": "39"
+        }
+      ]
+    },
+    {
+      "code": "24-1.2",
+      "display": "Peeling skin syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "24"
+        }
+      ]
+    },
+    {
+      "code": "60-1.10",
+      "display": "Periodic fever syndromes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.10"
+        },
+        {
+          "code": "id",
+          "valueString": "60"
+        }
+      ]
+    },
+    {
+      "code": "114-1.6",
+      "display": "Peroxisomal disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "114"
+        }
+      ]
+    },
+    {
+      "code": "311-1.1",
+      "display": "Pityriasis rubra pilaris",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "311"
+        }
+      ]
+    },
+    {
+      "code": "418-0.2",
+      "display": "Polydactyly Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "418"
+        }
+      ]
+    },
+    {
+      "code": "307-1.86",
+      "display": "Posterior segment abnormalities",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.86"
+        },
+        {
+          "code": "id",
+          "valueString": "307"
+        }
+      ]
+    },
+    {
+      "code": "83-1.1",
+      "display": "Primary Membranoproliferative Glomerulonephritis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "83"
+        }
+      ]
+    },
+    {
+      "code": "162-1.37",
+      "display": "Primary Microcephaly - Microcephalic Dwarfism Spectrum",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.37"
+        },
+        {
+          "code": "id",
+          "valueString": "162"
+        }
+      ]
+    },
+    {
+      "code": "178-1.14",
+      "display": "Primary ciliary disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "178"
+        }
+      ]
+    },
+    {
+      "code": "398-1.14",
+      "display": "Primary immunodeficiency disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "398"
+        }
+      ]
+    },
+    {
+      "code": "17-1.0",
+      "display": "Prostate cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "17"
+        }
+      ]
+    },
+    {
+      "code": "106-1.11",
+      "display": "Proteinuric renal disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.11"
+        },
+        {
+          "code": "id",
+          "valueString": "106"
+        }
+      ]
+    },
+    {
+      "code": "193-1.33",
+      "display": "Pulmonary arterial hypertension",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.33"
+        },
+        {
+          "code": "id",
+          "valueString": "193"
+        }
+      ]
+    },
+    {
+      "code": "48-1.27",
+      "display": "RASopathies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.27"
+        },
+        {
+          "code": "id",
+          "valueString": "48"
+        }
+      ]
+    },
+    {
+      "code": "415-0.2",
+      "display": "Radial Ray abnormality Victorian Clinical Genetics Services",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "415"
+        }
+      ]
+    },
+    {
+      "code": "247-1.6",
+      "display": "Radial dysplasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.6"
+        },
+        {
+          "code": "id",
+          "valueString": "247"
+        }
+      ]
+    },
+    {
+      "code": "150-1.48",
+      "display": "Rare multisystem ciliopathy disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.48"
+        },
+        {
+          "code": "id",
+          "valueString": "150"
+        }
+      ]
+    },
+    {
+      "code": "8-0.10",
+      "display": "Refuted genes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.10"
+        },
+        {
+          "code": "id",
+          "valueString": "8"
+        }
+      ]
+    },
+    {
+      "code": "98-1.3",
+      "display": "Regional overgrowth disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "98"
+        }
+      ]
+    },
+    {
+      "code": "154-1.0",
+      "display": "Renal cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "154"
+        }
+      ]
+    },
+    {
+      "code": "149-1.14",
+      "display": "Renal tract calcification (or Nephrolithiasis/nephrocalcinosis)",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.14"
+        },
+        {
+          "code": "id",
+          "valueString": "149"
+        }
+      ]
+    },
+    {
+      "code": "292-1.8",
+      "display": "Renal tubular acidosis",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "292"
+        }
+      ]
+    },
+    {
+      "code": "236-1.4",
+      "display": "Resistance to thyroid hormone",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.4"
+        },
+        {
+          "code": "id",
+          "valueString": "236"
+        }
+      ]
+    },
+    {
+      "code": "66-1.21",
+      "display": "Rhabdomyolysis and metabolic muscle disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.21"
+        },
+        {
+          "code": "id",
+          "valueString": "66"
+        }
+      ]
+    },
+    {
+      "code": "217-1.0",
+      "display": "Sarcoma pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "217"
+        }
+      ]
+    },
+    {
+      "code": "262-1.2",
+      "display": "Severe familial anorexia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "262"
+        }
+      ]
+    },
+    {
+      "code": "228-1.8",
+      "display": "Severe hypertriglyceridaemia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "228"
+        }
+      ]
+    },
+    {
+      "code": "62-1.7",
+      "display": "Severe multi-system atopic disease with high IgE",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.7"
+        },
+        {
+          "code": "id",
+          "valueString": "62"
+        }
+      ]
+    },
+    {
+      "code": "224-0.1",
+      "display": "Short QT syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.1"
+        },
+        {
+          "code": "id",
+          "valueString": "224"
+        }
+      ]
+    },
+    {
+      "code": "130-1.5",
+      "display": "Significant early-onset obesity +/- other endocrine features and short stature",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "130"
+        }
+      ]
+    },
+    {
+      "code": "199-1.3",
+      "display": "Silver Russell syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.3"
+        },
+        {
+          "code": "id",
+          "valueString": "199"
+        }
+      ]
+    },
+    {
+      "code": "182-0.2",
+      "display": "Single autosomal recessive mutation in rare disease",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.2"
+        },
+        {
+          "code": "id",
+          "valueString": "182"
+        }
+      ]
+    },
+    {
+      "code": "229-1.9",
+      "display": "Skeletal Muscle Channelopathies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.9"
+        },
+        {
+          "code": "id",
+          "valueString": "229"
+        }
+      ]
+    },
+    {
+      "code": "3-1.23",
+      "display": "Stickler syndrome",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.23"
+        },
+        {
+          "code": "id",
+          "valueString": "3"
+        }
+      ]
+    },
+    {
+      "code": "180-1.8",
+      "display": "Structural basal ganglia disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.8"
+        },
+        {
+          "code": "id",
+          "valueString": "180"
+        }
+      ]
+    },
+    {
+      "code": "45-1.9",
+      "display": "Sudden death in young people",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.9"
+        },
+        {
+          "code": "id",
+          "valueString": "45"
+        }
+      ]
+    },
+    {
+      "code": "82-1.0",
+      "display": "Testicular cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "82"
+        }
+      ]
+    },
+    {
+      "code": "122-1.2",
+      "display": "Thoracic dystrophies",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.2"
+        },
+        {
+          "code": "id",
+          "valueString": "122"
+        }
+      ]
+    },
+    {
+      "code": "421-1.0",
+      "display": "Thyroid cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "421"
+        }
+      ]
+    },
+    {
+      "code": "302-1.78",
+      "display": "Undiagnosed metabolic disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.78"
+        },
+        {
+          "code": "id",
+          "valueString": "302"
+        }
+      ]
+    },
+    {
+      "code": "156-1.15",
+      "display": "Unexplained kidney failure in young people",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.15"
+        },
+        {
+          "code": "id",
+          "valueString": "156"
+        }
+      ]
+    },
+    {
+      "code": "298-0.3",
+      "display": "Unexplained monogenic fetal disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "0.3"
+        },
+        {
+          "code": "id",
+          "valueString": "298"
+        }
+      ]
+    },
+    {
+      "code": "309-1.122",
+      "display": "Unexplained skeletal dysplasia",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.122"
+        },
+        {
+          "code": "id",
+          "valueString": "309"
+        }
+      ]
+    },
+    {
+      "code": "273-1.0",
+      "display": "Upper gastrointestinal cancer pertinent cancer susceptibility",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.0"
+        },
+        {
+          "code": "id",
+          "valueString": "273"
+        }
+      ]
+    },
+    {
+      "code": "101-1.22",
+      "display": "VACTERL-like phenotypes",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.22"
+        },
+        {
+          "code": "id",
+          "valueString": "101"
+        }
+      ]
+    },
+    {
+      "code": "222-1.1",
+      "display": "Vici Syndrome and other autophagy disorders",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.1"
+        },
+        {
+          "code": "id",
+          "valueString": "222"
+        }
+      ]
+    },
+    {
+      "code": "18-1.5",
+      "display": "monogenic nephrogenic diabetes insipidus",
+      "property": [
+        {
+          "code": "version",
+          "valueString": "1.5"
+        },
+        {
+          "code": "id",
+          "valueString": "18"
+        }
+      ]
+    }
+  ]
+}
