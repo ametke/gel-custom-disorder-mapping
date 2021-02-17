@@ -122,7 +122,7 @@ public class ConceptMapGenerator {
     final Map<String, String> namesToIds = getNamesToIdsMap();
     
     // Now we read the TSV file and use the map to get the disease code
-    try (Scanner sc = new Scanner(new File("src/main/resources/disease2panel.tsv"))) {
+    try (Scanner sc = new Scanner(new File("src/test/python/disease2panel.tsv"))) {
 
       final Map<String, Set<String>> map = new HashMap<>();
       while (sc.hasNextLine()) {
